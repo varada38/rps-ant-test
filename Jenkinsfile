@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone the Git Repository') {
             steps {
-                git credentialsId: 'git-credentials', url: 'https://github.com/9538541430/rps-ant.git'
+                git credentialsId: 'git-credentials', url: 'https://github.com/varada38/rps-ant-test.git'
             }
         }
         stage('Building docker image') {
